@@ -1,16 +1,30 @@
 
 /* To add some space below the navigation bar */
 
- body {
-  margin-top: 100px;
+
+body {
+  margin-top: 20px;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 
+/*  Increase page width to make more use of the screen on both sides*/
+
+body .main-container {
+  max-width: 1040px !important;
+  width: 1040px !important;
+}
+body {
+  max-width: 1040px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* add some color - if you want color behind a major point on your website */
 
 .banner_color {
-  background-color: lightblue;
-  font-weight:bold;
+  background-color: #5EB2EA;
+  font-weight: bold;
+  color: black;
 
 }
 

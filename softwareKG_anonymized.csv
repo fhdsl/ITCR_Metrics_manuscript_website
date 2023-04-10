@@ -1,0 +1,37 @@
+anonID,class/type,health_metrics,type of data,ownDOI,Twitter.bi,Youtube.bi,OtherMedia.bi,socialMedia,citeHow,releaseYear,updateYear,toolAge,TimeSinceLastUpdate,extensiveContact,softHealthMetrics,totalMentions,Allusion,Deposition,Usage,TimeSinceLastUpdate_bin,DocuDepth
+FTEWW0BD,Computing Web-based Platform,CI with badge,mixed,No,No,No,No,No,Yes,2006,2022,17,0,Yes,Site stats,3677,1059,85,2920,<= 1 year,Extensive
+RB7CZ1PS,Computing Web-based Platform,CI but not badge,image analysis,No,Yes,No,No,Yes,Yes,2005,2022,18,0,Yes,Download stats,1201,208,20,1061,<= 1 year,Extensive
+U6R6KWVA,Computing Web-based Platform,NA,Analysis of Variants,No,Yes,No,No,Yes,Yes,2012,2018,11,4,None,No,36,7,2,29,2+ years,Extensive
+6TFWTK1U,Computing Web-based Platform,NA,genomics,No,No,No,No,No,Yes,2013,2022,10,0,None,No,38,11,1,27,<= 1 year,Extensive
+PELAZSIK,Computing Web-based Platform,CI with badge,microbiome sequence analysis,No,No,No,No,No,Yes,2016,2021,7,1,Yes,No,9665,539,15,9408,<= 1 year,Extensive
+D4EDIEAB,Web-based tool,Test badges,mixed,No,Yes,No,No,Yes,Yes,2012,2022,11,0,Yes,Installation count,2685,414,83,2440,<= 1 year,Extensive
+LCLK11D0,Web-based tool,Not for core software,mixed,No,Yes,No,No,Yes,Yes,2016,2022,7,0,Yes,No,669,27,14,649,<= 1 year,Webpage/PDF/ReadMe
+YQNZN3JM,Web-based tool,NA,mixed,No,Yes,No,No,Yes,No,2017,2022,6,0,Yes,No,95,37,1,73,<= 1 year,Extensive
+UU9LNE9Y,Web-based tool,NA,mostly proteomics,No,No,No,No,No,Yes,2013,2022,10,0,None,No,16,8,NA,10,<= 1 year,Extensive
+U4Y5ZSND,Web-based tool,NA,protein-protein interaction networks,No,No,No,No,No,Yes,2018,2020,5,2,None,No,8,4,NA,4,2+ years,Webpage/PDF/ReadMe
+SUQGZZ8L,Web-based tool,CI and coverage badges,genomics,No,Yes,No,Yes,Yes,Yes,2009,2022,14,0,Yes,No,546,281,15,388,<= 1 year,Extensive
+NGSFCJE4,Bioconductor R packages,?,phenotypic associations,No,No,No,No,No,Yes,2017,2022,6,0,None,Download stats,23,12,1,18,<= 1 year,Extensive
+6FBYQEPP,Bioconductor R packages,Yes,mixed,Yes,Yes,No,No,Yes,Yes,2001,2022,22,0,Yes,Annual reports,19589,2654,20,17915,<= 1 year,Extensive
+FD7QWHDZ,Bioconductor R packages,No,DNA methylation and gene expression,Yes,No,No,No,No,Yes,2015,2022,8,0,None,Download stats,41,17,1,33,<= 1 year,Extensive
+Q349X2FI,Bioconductor R packages,No,genomics,Yes,No,No,No,No,No,2015,2022,8,0,None,Download stats,4,3,NA,NA,<= 1 year,Webpage/PDF/ReadMe
+VOE0B7QZ,Bioconductor R packages,yes build,methylation,Yes,No,No,No,No,Yes,2014,2022,9,0,None,Download stats,61,30,2,55,<= 1 year,Webpage/PDF/ReadMe
+PSHVVA5C,Bioconductor R packages,on bioconductor only,genomics,Yes,No,No,No,No,Yes,2014,2022,9,0,None,Download stats,200,78,7,165,<= 1 year,Extensive
+JE1JWTVT,Bioconductor R packages,on bioconductor only,mixed,Yes,No,No,No,No,Yes,2019,2022,4,0,None,Download stats,7,5,1,4,<= 1 year,Extensive
+OZVPN0H5,other R packages,No,genomics,No,No,No,No,No,No,2013,2022,10,0,None,No,231,60,3,166,<= 1 year,Extensive
+XWYIQRX3,other R packages,No,genomics,Yes,No,Yes,No,Yes,No,2020,2020,3,2,None,No,10,6,NA,4,2+ years,Webpage/PDF/ReadMe
+5LSVXVP0,other R packages,No,genomics,No,No,No,No,No,No,2022,2022,1,0,None,No,29,14,NA,15,<= 1 year,Webpage/PDF/ReadMe
+MSOGL1FM,Python scripts/Jupyter notebooks,No,genomics,No,No,No,No,No,Yes,2020,2022,3,0,None,No,2,1,NA,1,<= 1 year,Webpage/PDF/ReadMe
+WOVGOO7Y,Python scripts/Jupyter notebooks,NA,genomics,No,No,No,No,No,Yes,2019,2022,4,0,None,No,9,5,3,7,<= 1 year,Webpage/PDF/ReadMe
+XQVA1WM6,Python scripts/Jupyter notebooks,No,digital pathology slides,No,No,No,No,No,Yes,2019,2022,4,0,None,No,6,4,1,1,<= 1 year,Webpage/PDF/ReadMe
+I5Y5HDK1,Desktop Application,no,"genomic, phenotypic",No,Yes,No,No,Yes,Yes,2003,2022,20,0,Yes,No,4090,89,31,3994,<= 1 year,Extensive
+4VOL4WJ8,Desktop Application,travis but no badge,NA,No,Yes,Yes,No,Yes,Yes,2002,NA,21,NA,Yes,No,18528,1516,51,18008,NA,Extensive
+GCQF0VXJ,Desktop Application,unknown status badge,genomics,No,No,No,No,No,Yes,2011,2022,12,0,Yes,No,5958,478,4,5853,<= 1 year,Webpage/PDF/ReadMe
+WTM32P29,Desktop Application,No,clinical text,No,No,No,No,No,No,2007,2019,16,3,Yes,SourceForge stats,12,9,NA,7,2+ years,Webpage/PDF/ReadMe
+0HFBDRKQ,Database/Ontology,NA,genomics,No,No,No,No,No,Yes,2020,NA,3,NA,Yes,No,4,4,NA,1,NA,Extensive
+RAMAHBUY,Database/Ontology,NA,Gene sets,No,Yes,No,No,Yes,Yes,2005,2022,18,0,Yes,No,992,95,4,910,<= 1 year,Webpage/PDF/ReadMe
+YAMOKBHM,Database/Ontology,Yes,Gene sets,No,Yes,No,No,Yes,Yes,2011,2021,12,1,Yes,No,178,77,3,116,<= 1 year,Extensive
+BMDE6ZL8,Database/Ontology,unknown status badge,cancer models,No,No,No,No,No,Yes,2017,2022,6,0,Yes,No,2,2,NA,1,<= 1 year,Webpage/PDF/ReadMe
+GFLOKEAQ,Command-line tool/Other scripts,No,multi-omics,No,No,No,No,No,Yes,2017,2017,6,5,None,No,4,4,1,2,2+ years,Webpage/PDF/ReadMe
+1OCCX9ZQ,Command-line tool/Other scripts,Yes coverage and build,Imaging,No,No,No,No,No,Yes,2017,2022,6,0,None,No,5,2,NA,4,<= 1 year,Extensive
+WLUELBML,Command-line tool/Other scripts,No,mutation analysis,No,No,No,No,No,Yes,2018,2022,5,0,None,No,18,10,2,10,<= 1 year,Webpage/PDF/ReadMe
+RAA7JAEP,Plug-in/Extension,No,clinical study metadata harmonization,No,No,No,No,No,Yes,2016,2019,7,3,None,No,4,3,1,2,2+ years,Webpage/PDF/ReadMe

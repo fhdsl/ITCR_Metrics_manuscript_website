@@ -1,0 +1,45 @@
+anonID,class/type,health_metrics,type of data,ownDOI,Twitter.bi,Youtube.bi,OtherMedia.bi,socialMedia,citeHow,releaseYear,updateYear,toolAge,TimeSinceLastUpdate,extensiveContact,softHealthMetrics
+FTEWW0BD,Computing Web-based Platform,CI with badge,mixed,No,No,No,No,No,Yes,2006,2022,17,0,Yes,Site stats
+RB7CZ1PS,Computing Web-based Platform,CI but not badge,image analysis,No,Yes,No,No,Yes,Yes,2005,2022,18,0,Yes,Download stats
+U6R6KWVA,Computing Web-based Platform,NA,Analysis of Variants,No,Yes,No,No,Yes,Yes,2012,2018,11,4,None,No
+6TFWTK1U,Computing Web-based Platform,NA,genomics,No,No,No,No,No,Yes,2013,2022,10,0,NotWorking,No
+PELAZSIK,Computing Web-based Platform,CI with badge,microbiome sequence analysis,No,No,No,No,No,Yes,2016,2021,7,1,Yes,No
+D4EDIEAB,Web-based tool,Test badges,mixed,No,Yes,No,No,Yes,Yes,2012,2022,11,0,Yes,Installation count
+LCLK11D0,Web-based tool,Not for core software,mixed,No,Yes,No,No,Yes,Yes,2016,2022,7,0,Yes,No
+YQNZN3JM,Web-based tool,NA,mixed,No,Yes,No,No,Yes,Unclear,2017,2022,6,0,Yes,No
+UU9LNE9Y,Web-based tool,NA,mostly proteomics,No,No,No,No,No,Yes,2013,2022,10,0,NotWorking,No
+U4Y5ZSND,Web-based tool,NA,protein-protein interaction networks,No,No,No,No,No,Yes,2018,2020,5,2,None,No
+SUQGZZ8L,Web-based tool,CI and coverage badges,genomics,No,Yes,No,Yes,Yes,Yes,2009,2022,14,0,Yes,No
+NGSFCJE4,Bioconductor R packages,?,phenotypic associations,No,No,No,No,No,Yes,2017,2022,6,0,None,Download stats
+6FBYQEPP,Bioconductor R packages,Yes,mixed,Yes,Yes,No,No,Yes,Yes,2001,2022,22,0,Yes,Annual reports
+FD7QWHDZ,Bioconductor R packages,No,DNA methylation and gene expression,Yes,No,No,No,No,Yes,2015,2022,8,0,None,Download stats
+Q349X2FI,Bioconductor R packages,No,genomics,Yes,No,No,No,No,No,2015,2022,8,0,None,Download stats
+VOE0B7QZ,Bioconductor R packages,yes build,methylation,Yes,No,No,No,No,Yes,2014,2022,9,0,None,Download stats
+PSHVVA5C,Bioconductor R packages,on bioconductor only,genomics,Yes,No,No,No,No,Yes,2014,2022,9,0,None,Download stats
+JE1JWTVT,Bioconductor R packages,on bioconductor only,mixed,Yes,No,No,No,No,Yes,2019,2022,4,0,None,Download stats
+OZVPN0H5,other R packages,No,genomics,No,No,No,No,No,No,2013,2022,10,0,None,No
+XWYIQRX3,other R packages,unknown status,NA,No,No,No,No,No,No,2019,2022,4,0,None,No
+5LSVXVP0,other R packages,No,genomics,Yes,No,Yes,No,Yes,No,2020,2020,3,2,None,No
+MSOGL1FM,other R packages,No,genomics,No,No,No,No,No,No,2022,2022,1,0,None,No
+WOVGOO7Y,other R packages,No,genomics,No,No,No,No,No,No,2020,2021,3,1,None,No
+XQVA1WM6,Python scripts/Jupyter notebooks,Yes build,mixed,No,Yes,Yes,No,Yes,Yes,2006,2022,17,0,Yes,No
+I5Y5HDK1,Python scripts/Jupyter notebooks,No,genomics,No,No,No,No,No,Yes,2020,2022,3,0,None,No
+4VOL4WJ8,Python scripts/Jupyter notebooks,NA,genomics,No,No,No,No,No,Yes,2019,2022,4,0,None,No
+GCQF0VXJ,Python scripts/Jupyter notebooks,No,digital pathology slides,No,No,No,No,No,Yes,2019,2022,4,0,None,No
+WTM32P29,Python scripts/Jupyter notebooks,No,genomics,No,No,No,No,No,No,2022,2022,1,0,None,No
+0HFBDRKQ,Desktop Application,no,"genomic, phenotypic",No,Yes,No,No,Yes,Yes,2003,2022,20,0,Yes,No
+RAMAHBUY,Desktop Application,travis but no badge,NA,No,Yes,Yes,No,Yes,Yes,2002,NA,21,NA,Yes,No
+YAMOKBHM,Desktop Application,NA,digital pathology slides,No,No,No,No,No,Unclear,2016,2020,7,2,NotWorking,No
+BMDE6ZL8,Desktop Application,unknown status badge,genomics,No,No,No,No,No,Yes,2011,2022,12,0,Yes,No
+GFLOKEAQ,Desktop Application,No,clinical text,No,No,No,No,No,No,2007,2019,16,3,Yes,SourceForge stats
+1OCCX9ZQ,Database/Ontology,NA,genomics,No,No,No,No,No,Yes,2020,NA,3,NA,Yes,No
+WLUELBML,Database/Ontology,NA,Gene sets,No,Yes,No,No,Yes,Yes,2005,2022,18,0,Yes,No
+RAA7JAEP,Database/Ontology,Yes,Gene sets,No,Yes,No,No,Yes,Yes,2011,2021,12,1,Yes,No
+ZQ0F39A5,Database/Ontology,unknown status badge,cancer models,No,No,No,No,No,Yes,2017,2022,6,0,Yes,No
+HEN3LNPG,Database/Ontology,NA,mixed,No,No,No,No,No,No,NA,2015,NA,7,None,No
+UGMAWGHH,Command-line tool/Other scripts,No,multi-omics,No,No,No,No,No,Yes,2017,2017,6,5,None,No
+D3MPZ37H,Command-line tool/Other scripts,Yes coverage and build,Imaging,No,No,No,No,No,Yes,2017,2022,6,0,NotWorking,No
+GYQ43FVL,Command-line tool/Other scripts,No,mutation analysis,No,No,No,No,No,Yes,2018,2022,5,0,None,No
+YKUMRUZF,Command-line tool/Other scripts,No,mixed,No,No,No,No,No,Yes,2015,2015,8,7,None,No
+GE4LCYEX,Plug-in/Extension,No,PET/CT image analysis,No,No,No,No,No,Yes,2017,2017,6,5,None,No
+TIJQDKXR,Plug-in/Extension,No,clinical study metadata harmonization,No,No,No,No,No,Yes,2016,2019,7,3,None,No

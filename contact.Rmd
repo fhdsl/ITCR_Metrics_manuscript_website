@@ -1,5 +1,5 @@
 ---
-title: "**Contact Us**"
+title: "**Contact Information**"
 output:
   html_document
 ---
@@ -8,4 +8,4 @@ output:
 
 If you have questions please contact:
 
-* Carrie Wright (cwrigh60@jhu.edu)
+* Carrie Wright (cwright2@fredhutch.org) [ [website](https://carriewright11.github.io/) ]

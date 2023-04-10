@@ -1,34 +1,32 @@
-name: OTTR Template Website
+name: ITCR OPEN Group Software Metrics Manuscript
 output_dir: '.'
 navbar:
-  title: OTTR Web
-  left:
+  title: "<img id=\"logo\" style=\"width: 75px;\" src=\"ITCRLogo.png\" />"
+  right:
   - text: Home
     href: index.html
     icon: fa-home
-  - text: Setup
-    href: setup.html
-  - text: Hosting
-    href: hosting.html
-  - text: Editing
-    href: editing.html
-  - text: Style
-    href: style.html
-  - text: Git Actions
-    href: git_actions.html
-  - text: Docker
-    href: docker.html
+  - text: Survey data analysis
+    href: Survey_Results_anon.html
+  - text: Tool Infrastructure and Citation Analysis
+    href: Tool_Citation_Analyses_anon.html
   - text: Contact
     href: contact.html
     icon: fa-envelope
 
 
+
 output:
-  html_document:
-    theme: cosmo
+  rmarkdown::html_document:
+    theme: spacelab
     lib_dir: site_libs
     self_contained: no
-    highlight: textmate
+    highlight: pygments
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    code_download: true 
+    code_folding: 'hide'
     css: styles.css
     includes:
        in_header: resources/header.html
