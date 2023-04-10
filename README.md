@@ -13,6 +13,6 @@ All results are presented on our website in an understandable and instructive wa
 
 #### Data Statement
 
-- All analysis codes and data are publicly accessible in the **[github repository](https://github.com/fhdsl/)**.
+- All analysis codes and data are publicly accessible in the **[github repository](https://github.com/fhdsl/ITCR_Metrics_manuscript_website)**.
 
 - Due to the conditions of the IRB approval, the **survey data set** was kept private and was not made available to the public.
