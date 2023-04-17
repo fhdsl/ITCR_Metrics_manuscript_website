@@ -948,7 +948,7 @@ d1 <- regdat %>%
   geom_smooth(method = "lm", se = T, alpha = 0.2) +
   labs(x = "Release Year", y = "log(total Usage)", col = "Twitter \nPresence", shape = "Twitter \nPresence", 
        title = "Twitter Presence") +
-  scale_color_manual(values = c("#009E73", "#CC79A7")) +
+  scale_color_manual(values = c("#CC79A7", "#009E73")) +
   theme_light() + coord_equal() + theme(legend.position = "bottom")
 
 ## DocuDepth
