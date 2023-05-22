@@ -955,6 +955,7 @@ d1 <- regdat %>%
 
 ## DocuDepth
 d2 <- regdat %>%
+  mutate(DocuDepth = fct_recode(DocuDepth, "Webpage/PDF/\nReadMe" = "Webpage/PDF/ReadMe")) %>% 
   ggplot(aes(x = releaseYear, y = log(Usage), col = DocuDepth)) + 
   geom_point(aes(shape = DocuDepth)) + 
   geom_smooth(method = "lm", se = T, alpha = 0.2) +
