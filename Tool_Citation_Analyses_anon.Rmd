@@ -941,7 +941,6 @@ lm(log(totalMentions) ~ DocuDepth + socialMedia + extensiveContact + toolAge, da
 
 ```{r ManuscriptPlots2, fig.height=8, fig.width=9}
 # Twitter
-
 d1 <- regdat %>% 
   ggplot(aes(x = releaseYear, y = log(Usage), col = socialMedia)) + 
   geom_point(aes(shape = socialMedia)) + 
@@ -949,7 +948,10 @@ d1 <- regdat %>%
   labs(x = "Release Year", y = "log(total Usage)", col = "Twitter \nPresence", shape = "Twitter \nPresence", 
        title = "Twitter Presence") +
   scale_color_manual(values = c("#CC79A7", "#009E73")) +
-  theme_light() + coord_equal() + theme(legend.position = "bottom")
+  theme_light() + 
+  coord_equal() + 
+  theme(legend.position = "bottom",
+        aspect.ratio = .6)
 
 ## DocuDepth
 d2 <- regdat %>%
@@ -958,7 +960,10 @@ d2 <- regdat %>%
   geom_smooth(method = "lm", se = T, alpha = 0.2) +
   labs(x = "Release Year", y = "log(total Usage)", col = "Documentation \nDepth", shape = "Documentation \nDepth", title = "Documentation Depth") +
   scale_color_manual(values = c("#009E73", "#CC79A7")) +
-  theme_light() +coord_equal() + theme(legend.position = "bottom")
+  theme_light() + 
+  coord_equal() + 
+  theme(legend.position = "bottom",
+        aspect.ratio = .6)
 
 # extensiveContact
 d3 <- regdat %>% mutate(extensiveContact = if_else(extensiveContact == "None", "Little or no \ncontact methods", "Extensive \nmethods")) %>% 
@@ -969,7 +974,9 @@ d3 <- regdat %>% mutate(extensiveContact = if_else(extensiveContact == "None", "
        title = "Contact Methods") +
   scale_color_manual(values = c("#009E73", "#CC79A7")) +
   theme_light() + 
-  coord_equal() + theme(legend.position = "bottom")
+  coord_equal() + 
+  theme(legend.position = "bottom",
+        aspect.ratio = .6)
 
 # CiteHow
 # d4 <- regdat %>% 
@@ -978,9 +985,10 @@ d3 <- regdat %>% mutate(extensiveContact = if_else(extensiveContact == "None", "
 #   geom_smooth(method = "lm", se = T, alpha = 0.2) +
 #   labs(x = "Release Year", y = "log(total Usage)", subtitle = "Information for citing software") +
 #   scale_color_manual(values = c("#009E73", "#CC79A7")) +
-#   theme_light() + 
-#   coord_equal() + 
-#   theme(legend.position = "bottom")
+# theme_light() + 
+# coord_equal() + 
+# theme(legend.position = "bottom",
+#       aspect.ratio = .6)
 
 # health metrics
 d5 <- regdat %>% drop_na(simple_health_metrics) %>%
@@ -991,7 +999,8 @@ d5 <- regdat %>% drop_na(simple_health_metrics) %>%
        title = "Presence of Software Health Metrics", subtitle = ("test coverage and build status badges")) + scale_color_manual(values = c("#CC79A7", "#009E73")) +
   theme_light() + 
   coord_equal() + 
-  theme(legend.position = "bottom")
+  theme(legend.position = "bottom",
+        aspect.ratio = .6)
 
 p <- (d2 + d1) / (d3 + d5)
 p
@@ -1146,7 +1155,10 @@ d1 <- regdat %>%
   geom_smooth(method = "lm", se = T, alpha = 0.2) +
   labs(x = "Release Year", y = "log(total Mentions)", col = "Twitter \nPresence", shape = "Twitter \nPresence", title = "Twitter Presence") +
   scale_color_manual(values = c("#009E73", "#CC79A7")) +
-  theme_light() + coord_equal() + theme(legend.position = "bottom")
+  theme_light() + 
+  coord_equal() + 
+  theme(legend.position = "bottom",
+        aspect.ratio = .6)
 
 ## DocuDepth
 d2 <- regdat %>%
@@ -1155,7 +1167,10 @@ d2 <- regdat %>%
   geom_smooth(method = "lm", se = T, alpha = 0.2) +
   labs(x = "Release Year", y = "log(total Mentions)", col = "Documentation \nDepth", shape = "Documentation \nDepth", title = "Documentation Depth") +
   scale_color_manual(values = c("#009E73", "#CC79A7")) +
-  theme_light() +coord_equal() + theme(legend.position = "bottom")
+  theme_light() + 
+  coord_equal() + 
+  theme(legend.position = "bottom",
+        aspect.ratio = .6)
 
 # extensiveContact
 d3 <- regdat %>% mutate(extensiveContact = if_else(extensiveContact == "None", "Little or no \ncontact methods", "Extensive \nmethods")) %>% 
@@ -1164,7 +1179,10 @@ d3 <- regdat %>% mutate(extensiveContact = if_else(extensiveContact == "None", "
   geom_smooth(method = "lm", se = T, alpha = 0.2) +
   labs(x = "Release Year", y = "log(total Mentions)", col = "Contact \nMethods", shape = "Contact \nMethods", title = "Contact Methods") +
   scale_color_manual(values = c("#009E73", "#CC79A7")) +
-  theme_light() +coord_equal() + theme(legend.position = "bottom")
+  theme_light() + 
+  coord_equal() + 
+  theme(legend.position = "bottom",
+        aspect.ratio = .6)
 
 # CiteHow
 d4 <- regdat %>% 
@@ -1173,7 +1191,10 @@ d4 <- regdat %>%
   geom_smooth(method = "lm", se = T, alpha = 0.2) +
   labs(x = "Release Year", y = "log(total Mentions)", subtitle = "Information for citing software") +
   scale_color_manual(values = c("#009E73", "#CC79A7")) +
-  theme_light() +coord_equal() + theme(legend.position = "bottom")
+  theme_light() + 
+  coord_equal() + 
+  theme(legend.position = "bottom",
+        aspect.ratio = .6)
 
 # health metrics
 d5 <- regdat %>% drop_na(simple_health_metrics) %>%
@@ -1184,7 +1205,8 @@ d5 <- regdat %>% drop_na(simple_health_metrics) %>%
        title = "Presence of Software Health Metrics", subtitle = ("test coverage and build status badges")) + scale_color_manual(values = c("#CC79A7", "#009E73")) +
   theme_light() + 
   coord_equal() + 
-  theme(legend.position = "bottom")
+  theme(legend.position = "bottom",
+        aspect.ratio = .6)
 
 p2 <- (d2 + d1) / (d3 + d5)
 p2
