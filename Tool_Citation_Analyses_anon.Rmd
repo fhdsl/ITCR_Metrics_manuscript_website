@@ -134,7 +134,7 @@ wdat %>%
 
 - Note: the category "NA" refers to the that the particular tool did not have an repository or website that allows observation of such tags/metrics. 
 
- - CI is an acronym for Continuous Integration (regularly merging code changes into a central repository, after which automated builds and tests are run.)
+- CI stands for Continuous Integration (regularly merging code changes into a central repository, after which automated builds and tests are run.)
 
 ```{r, fig.align='center', fig.height=4, fig.width=4}
 wdat %>% mutate(simple_health_metrics = if_else(is.na(simple_health_metrics), "NA", simple_health_metrics)) %>% 
