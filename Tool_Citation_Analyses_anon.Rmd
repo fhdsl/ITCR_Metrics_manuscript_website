@@ -132,7 +132,7 @@ wdat %>%
 
 - Here we look at the distribution of software having simple health metrics (Test badges, CI and coverage badges etc.): 
 
-- Note: the category "NA" refers to the that the particular tool did not have an repository or website that allows observation of such tags/metrics. 
+- Note: the category "NA" refers to the that the particular tool did not have any repository or website that allows observation of such tags/metrics. 
 
 - CI stands for Continuous Integration (regularly merging code changes into a central repository, after which automated builds and tests are run.)
 
