@@ -132,6 +132,10 @@ wdat %>%
 
 - Here we look at the distribution of software having simple health metrics (Test badges, CI and coverage badges etc.): 
 
+- Note: the category "NA" refers to the that the particular tool did not have an repository or website that allows observation of such tags/metrics. 
+
+ - CI is an acronym for Continuous Integration (regularly merging code changes into a central repository, after which automated builds and tests are run.)
+
 ```{r, fig.align='center', fig.height=4, fig.width=4}
 wdat %>% mutate(simple_health_metrics = if_else(is.na(simple_health_metrics), "NA", simple_health_metrics)) %>% 
   ggplot(aes(x = simple_health_metrics, fill = simple_health_metrics)) +
@@ -206,7 +210,7 @@ wdat %>%
 ```{r, fig.align='center'}
 wdat %>% 
   ggplot(aes(x = ownDOI, fill = ownDOI)) +
-  geom_bar( width = 0.5) + 
+  geom_bar( width = 0.5, show.legend = F) + 
   geom_text(stat = 'count', aes(label = after_stat(count), vjust = 1.5), color = "white") +
   facet_wrap(~toolType) +
   labs(x = "softwares with DOI", y = "Frequency", caption = "Distribution of softwares with own DOI across tool types") +
@@ -312,7 +316,9 @@ wdat %>%
         panel.grid = element_blank())
 ```
  
- - It appears that the half of the R-packags do not provide instruction on how to cite them. 
+ - It appears that the half of the R-packages do not provide instruction on how to cite them. 
+ 
+- "NA" refers to tools with unavailable information on data type. 
 
 ```{r}
 ## Stratified  by dataType
