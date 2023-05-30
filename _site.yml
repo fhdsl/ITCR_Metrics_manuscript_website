@@ -9,7 +9,7 @@ navbar:
   - text: Survey Questionnaire
     href: questionnaire.html
     icon: fa-comments-o
-  - text: Survey data analysis
+  - text: Survey Data Analysis
     href: Survey_Results_anon.html
   - text: Tool Infrastructure and Citation Analysis
     href: Tool_Citation_Analyses_anon.html
