@@ -6,6 +6,9 @@ navbar:
   - text: Home
     href: index.html
     icon: fa-home
+  - text: Survey Questionnaire
+    href: questionnaire.html
+    icon: fa-comments-o
   - text: Survey data analysis
     href: Survey_Results_anon.html
   - text: Tool Infrastructure and Citation Analysis
