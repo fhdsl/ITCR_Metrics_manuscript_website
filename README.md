@@ -1,6 +1,6 @@
 ### **Overview**
 
-This website is dedicated to the presentation of analyses pertaining to the manuscript "IMPACT OF SOFTWARE DESIGNED FOR BIOMEDICAL RESEARCH: ARE WE MEASURING WHAT’S IMPORTANT?". The analyses are based on the software evaluation practices and infrastructure used by developers in the Informatics Technology for Cancer Research (ITCR) program.
+This website is dedicated to the presentation of analyses pertaining to the manuscript "Best practices to evaluate the impact of biomedical research software-metric collection beyond citations" published by Bioinformatics (https://pubmed.ncbi.nlm.nih.gov/39067017/), which was previously titled "Impact of Software Desiged for Biomedical Research: are we measuring what's important?" as a preprint (https://arxiv.org/abs/2306.03255). The analyses are based on the software evaluation practices and infrastructure used by developers in the Informatics Technology for Cancer Research (ITCR) program.
 
 To better understand how developers approach software evaluation and the infrastructure typically used to support this process, our research team conducted two analyses. 
 
